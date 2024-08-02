@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-2"  # Cambia esto a la región que prefieras
+  region = "us-east-1"  # Cambia esto a la región que prefieras
 }
 
 resource "aws_directory_service_directory" "example" {
